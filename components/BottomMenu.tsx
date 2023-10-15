@@ -5,7 +5,7 @@ import { CgProfile } from "react-icons/cg";
 
 const BottomMenu = () => {
   return (
-    <div className="lg:hidden w-screen bg-transparent flex justify-center items-center">
+    <div className="lg:hidden w-screen flex justify-center items-center">
       <div className="bottomMenu-shadow  w-[90%] fixed bottom-0  mb-4 border border-grey-300 pt-4 pb-4 pl-2 pr-2 rounded-lg flex justify-evenly items-center overflow-visible">
         <LuHome className="w-7 h-7" />
 
