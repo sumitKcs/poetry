@@ -28,7 +28,7 @@ const LatestBlogs = () => {
               height={320}
             />
           </div>
-          <div className="w-[94%] latesBlogShadow absolute flex flex-col justify-center top-[15rem] lg:top-96 bg-white shadoow-lg p-4 gap-4 ">
+          <div className="w-[94%] latesBlogShadow absolute flex flex-col justify-center top-[12rem] lg:top-96 bg-white shadoow-lg p-4 gap-4 ">
             <h3 className="text-2xl">{blog.title}</h3>
             <p className="blogDescription">{blog.description}</p>
             <div className=" flex justify-between items-center gap-4">
