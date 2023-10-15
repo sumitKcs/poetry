@@ -5,6 +5,7 @@ import {
   VideoCard,
   ShayariMoods,
   ShayariCategories,
+  WhatsappButton,
 } from "@/components";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <VideoCard />
       <ShayariMoods />
       <ShayariCategories />
+      <WhatsappButton />
     </main>
   );
 }
