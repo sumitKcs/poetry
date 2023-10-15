@@ -1,3 +1,9 @@
+import { Welcome } from "@/components";
+
 export default function Home() {
-  return <div className="h-screen">Home page</div>;
+  return (
+    <main className="w-full p-5">
+      <Welcome />
+    </main>
+  );
 }
