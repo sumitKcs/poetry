@@ -4,7 +4,7 @@ import React from "react";
 
 const AppDownload = () => {
   return (
-    <section className="w-full mt-10 h-60 mb-96 border-2 border-dotted border-gray-500 rounded-2xl">
+    <section className="w-full mt-10 h-60 mb-40 border-2 border-dotted border-gray-500 rounded-2xl">
       <div className="flex flex-col justify-center items-center gap-4 py-10">
         <p className=" text-xl font-semibold font-gray-700">
           {APP_DATA.APP_NAME} App is Coming Soon
