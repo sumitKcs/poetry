@@ -1,4 +1,4 @@
-import APP_DATA from "../../data.js";
+import APP_DATA from "../data.js";
 
 import { MdOutlineRefresh } from "react-icons/md";
 import { AiOutlineHeart, AiOutlineDownload } from "react-icons/ai";
