@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const LatestBlogs = () => {
   return (
-    <section className="w-full mt-7 mb-40 flex flex-col gap-3">
+    <section className="w-full mt-7 mb-60 md:mb-40 flex flex-col gap-3">
       <div className="flex justify-between ">
         <p className="headingText">Latest blogs</p>
         <div className=" flex justify-center items-center ">
