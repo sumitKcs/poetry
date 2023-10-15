@@ -9,7 +9,8 @@ import ShayariCategories from "./ShayariCategories"
 import WhatsappButton from "./WhatsappButton"
 import LatestBlogs from "./LatestBlogs"
 import Writers from "./Writers"
+import OutlineButton from "./OutlineButton"
+import AppDownload from "./AppDownload"
 
-
-export {Header, BottomMenu, WelcomeText, WelcomeShayariCard, SearchShayari, VideoCard, ShayariMoods, ShayariCategories, WhatsappButton, LatestBlogs, Writers}
+export {Header, BottomMenu, WelcomeText, WelcomeShayariCard, SearchShayari, VideoCard, ShayariMoods, ShayariCategories, WhatsappButton, LatestBlogs, Writers, OutlineButton, AppDownload}
 

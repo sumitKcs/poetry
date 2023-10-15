@@ -1,13 +1,13 @@
 import APP_DATA from "@/data";
 import Image from "next/image";
 import { LiaGreaterThanSolid } from "react-icons/lia";
-import { writer } from "repl";
+import { OutlineButton } from ".";
 
 const Writers = () => {
   return (
-    <section className="w-full mt-7 mb-96 flex flex-col gap-3">
+    <section className="w-full mt-7 mb-7 flex flex-col gap-3">
       <div className="flex justify-between ">
-        <p className="headingText">Latest blogs</p>
+        <p className="headingText">Writers</p>
         <div className=" flex justify-center items-center ">
           <p className=" text-sm">View All&nbsp;</p>
           <span>
@@ -31,6 +31,7 @@ const Writers = () => {
           </a>
         ))}
       </div>
+      <OutlineButton text={`Become Writer on ${APP_DATA.APP_NAME}`} />
     </section>
   );
 };

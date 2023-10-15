@@ -1,5 +1,5 @@
 const APP_DATA = {
-  APP_NAME: "Lekhak"
+  APP_NAME: "Lekhak",
   WELCOME_HEADING: "Welcome text!",
   WELCOME_SUBHEADING: " Welcome sub heading text here.",
   WELCOME_SHAYARI: [

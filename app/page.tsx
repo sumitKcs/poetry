@@ -8,6 +8,7 @@ import {
   WhatsappButton,
   LatestBlogs,
   Writers,
+  AppDownload,
 } from "@/components";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <WhatsappButton />
       <LatestBlogs />
       <Writers />
+      <AppDownload />
     </main>
   );
 }
