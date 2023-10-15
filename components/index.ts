@@ -1,8 +1,9 @@
 import BottomMenu from "./BottomMenu"
 import Header from "./Header"
-import Welcome from "./Welcome"
+import WelcomeText from "./Welcome"
+import WelcomeShayariCard from "./WelcomeShayariCard"
+import SearchShayari from "./SearchShayari"
 
 
-
-export {Header, BottomMenu, Welcome}
+export {Header, BottomMenu, WelcomeText, WelcomeShayariCard, SearchShayari}
 

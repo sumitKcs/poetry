@@ -1,8 +1,6 @@
-import { FiMenu } from 'react-icons/fi'
+import { FiMenu } from "react-icons/fi";
 import Image from "next/image";
-
-const menu = ["Shayari", "Writers", "Search", "Posts"];
-const LOGO = "https://i.postimg.cc/3RvKKHPh/logo.png";
+import APP_DATA from "../../data";
 
 const Header = () => {
   return (
@@ -16,7 +14,7 @@ const Header = () => {
         <div className="hidden lg:flex justify-center items-center lg:row-start-1 lg:col-start-2 lg:col-end-3">
           {/* desktop menu */}
           <ul className=" list-none space-x-2 flex justify-around gap-4  ">
-            {menu.map((item, key) => (
+            {APP_DATA.MENU.map((item, key) => (
               <li
                 className=" font-medium float-left tracking-wider opacity-90"
                 key={key}
@@ -29,7 +27,7 @@ const Header = () => {
         </div>
         <div className=" col-start-2 col-end-3  lg:col-start-1 lg:col-end-2 lg:text-left lg:pl-2">
           <div className=" flex justify-center items-center lg:justify-start">
-            <Image src={LOGO} alt="logo" width={100} height={100} />
+            <Image src={APP_DATA.LOGO} alt="logo" width={100} height={100} />
           </div>
         </div>
       </div>
