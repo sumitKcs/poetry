@@ -6,6 +6,8 @@ import {
   ShayariMoods,
   ShayariCategories,
   WhatsappButton,
+  LatestBlogs,
+  Writers,
 } from "@/components";
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <ShayariMoods />
       <ShayariCategories />
       <WhatsappButton />
+      <LatestBlogs />
+      <Writers />
     </main>
   );
 }
