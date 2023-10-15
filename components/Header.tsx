@@ -1,6 +1,6 @@
 import { FiMenu } from "react-icons/fi";
 import Image from "next/image";
-import APP_DATA from "../data.js";
+import APP_DATA from "@/data";
 
 const Header = () => {
   return (

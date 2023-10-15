@@ -1,4 +1,4 @@
-import APP_DATA from "../data.js";
+import APP_DATA from "@/data";
 
 const WELCOME_HEADING = "Welcome text!";
 const WELCOME_SUBHEADING = " Welcome sub heading text here.";

@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} flex flex-col justify-start items-center w-screen h-[100vh] mb-32`}
+        className={`${inter.className} flex flex-col justify-start items-center w-screen h-[100vh] mb-96 no-scrollbar`}
       >
         <Header />
         {children}

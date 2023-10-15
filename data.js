@@ -14,6 +14,11 @@ const APP_DATA = {
     "https://i.postimg.cc/CKWwtxpN/shayari-background.jpg",
   MENU: ["Shayari", "Writers", "Search", "Posts"],
   LOGO: "https://i.postimg.cc/3RvKKHPh/logo.png",
+  VIDEO_IMAGE:
+    "https://poetistic.com/_ipx/q_100,s_800x480/https://d1a1sxzos5rrmb.cloudfront.net/promotional-cards/Wjf9kLQE8PzBfhPxFesbbSofS83zCHvtq3jvJb3f.webp",
+  VIDEO_LINK:
+    "https://poetistic.com/_ipx/q_100,s_800x480/https://d1a1sxzos5rrmb.cloudfront.net/promotional-cards/Wjf9kLQE8PzBfhPxFesbbSofS83zCHvtq3jvJb3f.webp",
+  CATEGORIES: ["Sher", "Ghazal", "Nazm"],
 };
 
 export default APP_DATA;

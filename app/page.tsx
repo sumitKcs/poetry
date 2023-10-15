@@ -1,4 +1,11 @@
-import { WelcomeText, WelcomeShayariCard, SearchShayari } from "@/components";
+import {
+  WelcomeText,
+  WelcomeShayariCard,
+  SearchShayari,
+  VideoCard,
+  ShayariMoods,
+  ShayariCategories,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -6,6 +13,9 @@ export default function Home() {
       <WelcomeText />
       <WelcomeShayariCard />
       <SearchShayari />
+      <VideoCard />
+      <ShayariMoods />
+      <ShayariCategories />
     </main>
   );
 }

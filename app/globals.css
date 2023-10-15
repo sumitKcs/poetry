@@ -2,13 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  @variants responsive {
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+  }
+}
+
 :root {}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-y: scroll;
+}
+
+.headingText {
+  @apply text-lg font-medium
+}
+
+.moodCircle {
+  @apply bg-[#333333] rounded-full w-16 h-16 flex justify-center items-center
 }
 
 .shayariCard {
