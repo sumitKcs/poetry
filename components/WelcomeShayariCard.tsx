@@ -26,7 +26,7 @@ const WelcomeShayariCard = () => {
           </a>
           <a
             href={APP_DATA.WELCOME_SHAYARI_LINK}
-            className="text-sm text-gray-700"
+            className="text-sm text-gray-700 font-semibold"
           >
             {APP_DATA.WELCOME_SHAYARI_AUTHOR}
           </a>
