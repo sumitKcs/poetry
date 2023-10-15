@@ -17,12 +17,22 @@
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
-.pen::after {
+
+
+.pen::before {
+
+  border: 8px solid #d8d8d8;
+  border-radius: 50%;
   content: "";
+  height: 2rem;
+  top: -2.5rem;
+  padding: 1.2rem;
   position: absolute;
-  z-index: 2;
-  border: 12px solid grey;
+  background: #333333;
+  width: 4rem;
+  height: 4rem;
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {}
