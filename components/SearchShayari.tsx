@@ -41,7 +41,7 @@ const SearchShayari = () => {
         type="submit"
         className="w-full whatsapp-btn p-4 bg-[#333333] font-medium text-white rounded"
       >
-        Generate Sher
+        Search Sher
       </button>
     </div>
   );
