@@ -54,7 +54,7 @@ const page = () => {
           required
         />
       </div>
-      <button className="w-[30%] mt-7 md:w-[20%] bg-[#333333] py-4 rounded text-white">
+      <button className="w-[50%] mt-7 md:w-[20%] bg-[#333333] py-4 rounded text-white">
         Create Account
       </button>
       <span>
