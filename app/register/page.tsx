@@ -7,7 +7,7 @@ const page = () => {
   return (
     <main className="w-full mt-5 md:w-[70%] lg:w-[45%]  p-5 flex flex-col justify-start items-start gap-8">
       <div className="text-xl md:text-2xl font-medium  title-underline">
-        Sign in to {APP_DATA.APP_NAME}
+        Sign Up to {APP_DATA.APP_NAME}
       </div>
       <div className="w-full flex flex-col justify-start items-start gap-6">
         <TextField
