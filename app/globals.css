@@ -34,6 +34,23 @@
   @apply text-lg font-medium
 }
 
+.title-underline {
+  position: relative;
+}
+
+.title-underline::before {
+  .title-underline:before {
+    background: #c4c4c4;
+    border-radius: 2px;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    max-width: 40px;
+    position: absolute;
+    width: 40%;
+  }
+}
+
 .moodCircle {
   @apply bg-[#333333] rounded-full w-16 h-16 flex justify-center items-center
 }

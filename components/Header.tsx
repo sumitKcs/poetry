@@ -1,6 +1,7 @@
 import { FiMenu } from "react-icons/fi";
 import Image from "next/image";
 import APP_DATA from "@/data";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -22,6 +23,9 @@ const Header = () => {
                 {item}
               </li>
             ))}
+            <li className=" font-medium float-left tracking-wider opacity-90">
+              <Link href="/login"> Login</Link>
+            </li>
           </ul>
           {/* desktop menu */}
         </div>
